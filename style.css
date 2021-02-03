@@ -30,6 +30,10 @@ p{
 table{
 color: white;
 }
+span{
+    color: red;
+    font-family: bold;
+}
 img{
 background-image: url("headshot.png");
 width: 412px;
