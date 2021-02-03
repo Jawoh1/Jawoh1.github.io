@@ -6,6 +6,7 @@ body{
 
 h1{
     color: white;
+    text-align: center;
 }
 *{
     font-family: sans-serif;
@@ -24,12 +25,35 @@ h4{
 ul{
     color: white;
 }
+
+p.b{
+    font-style: italic;
+
+}
 p{
     color: white;
 }
-table{
+
+table th, table td{
 color: white;
+border: none;
+
 }
+tr:nth-child(odd){
+background-color: rgb(133, 190, 141);
+border: none;
+}
+    
+tr:nth-child(even){
+    background-color: turquoise;
+    border: none;
+}
+th{
+    color:black;
+    border: none;
+        
+}
+
 span{
     color: red;
     font-family: bold;
@@ -45,19 +69,3 @@ margin-left:auto ;
 margin-right: auto;
 }
 
-tr:nth-child(odd){
-background-color: rgb(133, 190, 141);
-}
-
-tr:nth-child(even){
-    background-color: turquoise;
-    }
-th{
-    color:black;
-    
-}
-
-a:hover{
-    color: purple;
-
-}
